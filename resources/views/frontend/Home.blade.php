@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business website</title>
-    <link rel="stylesheet" href=" {{asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('asset/css/style.css')}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet"> 
@@ -17,15 +17,15 @@
         <!--header part start-->
         <section class="header">
             <div class="logo">
-               <a href="index.html"> <img src="images/logo.png" alt=""></a>
+               <a href="/"> <img src="{{asset('asset/images')}}/logo.png" alt=""></a>
             </div>
             <div class="menu">
                 <ul>
-                    <li> <a href="index.html"> HOME</a></li>
-                    <li> <a href="about.html">ABOUT</a></li>
-                    <li> <a href="#">SERVICe</a></li>
-                    <li> <a href="#">blog</a></li>
-                    <li> <a href="contact.html">CONTACT</a></li>
+                    <li> <a href="/index"> HOME</a></li>
+                    <li> <a href="/about">ABOUT</a></li>
+                    <li> <a href="/#">SERVICe</a></li>
+                    <li> <a href="/#">blog</a></li>
+                    <li> <a href="/contact">CONTACT</a></li>
                     
                 </ul>
             </div>
@@ -40,7 +40,7 @@
             BUSINESS</h1>
         <p>We are Leading International Consulting Specializingin <br>
             Business & Financial Investment. </p>
-            <button class="btn"> <a href="">Latest Work</a></button>
+            <button class="btn"> <a href="/">Latest Work</a></button>
       </div>
     </div>
     
@@ -54,19 +54,19 @@
             </div>
             <div class="service_one">
                 <h4>Fast Working Process</h4>
-                <img src="images/service1.jpg" alt="" height="400px">
+                <img src="{{asset('asset/images')}}/service1.jpg" alt="" height="400px">
                 <p>Curabitur blandit tempus porttitor. Duis at vollisky inceptos mollisestor commodo luctus erat. Morbi  risus, porta consectetur vestibulum at eros.</p>
                 <button class="btn"><a href="#">Continue Reading</a></button>
             </div>
             <div class="service_one">
                 <h4>Expert Consultants</h4>
-                <img src="images/service2.jpg" alt="" height="400px">
+                <img src="{{asset('asset/images')}}/service2.jpg" alt="" height="400px">
                 <p>Curabitur blandit tempus porttitor. Duis at vollisky inceptos mollisestor commodo luctus erat. Morbi  risus, porta consectetur vestibulum at eros.</p>
                 <button class="btn"><a href="#">Continue Reading</a></button>
             </div>
             <div class="service_one">
                 <h4>24/7 Client Support</h4>
-                <img src="images/service3.jpg" alt="" height="400px">
+                <img src="{{asset('asset/images')}}/service3.jpg" alt="" height="400px">
                 <p>Curabitur blandit tempus porttitor. Duis at vollisky inceptos mollisestor commodo luctus erat. Morbi  risus, porta consectetur vestibulum at eros.</p>
                 <button class="btn"><a href="#">Continue Reading</a></button>
             </div>
@@ -77,7 +77,7 @@
             
             <div class="gallery_container">
               <div class="gallery_pic">
-                  <img src="images/about.jpg" alt="">
+                  <img src="{{asset('asset/images')}}/about.jpg" alt="">
                   
               </div>
               <div class="gallery_content">
