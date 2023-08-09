@@ -55,7 +55,7 @@
                 </div>
                 <div class="footer_one">
                   <h3>TWITTER</h3>
-                  <p>Aenean lacinia bibendum nulla sed leo posuere erat a ante venenatis dapibus posuere velit aliquet. <br>
+                  <p>Aenean lacinia bibendum nulla  33 sed leo posuere erat a ante venenatis dapibus posuere velit aliquet. <br>
         <br>
         
                     Donec ullamcorper metus auctor fringilla. Nullam quis risus eget. <br>
