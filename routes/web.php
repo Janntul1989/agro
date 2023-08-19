@@ -2,9 +2,9 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\frontend\homeController;
-use App\Http\Controllers\frontend\diseaseController;
-use App\Http\Controllers\frontend\registrationController;
+use App\Http\Controllers\frontend\homecontroller;
+use App\Http\Controllers\frontend\diseasecontroller;
+use App\Http\Controllers\frontend\registrationcontroller;
 use App\Http\Controllers\LangController;
 /*
 |--------------------------------------------------------------------------
